@@ -14,7 +14,7 @@ For other system, please check the file read/write or multithreading functions i
 
 ### A. Test 3D Models
 
-1. Download ["HomebrewedDB"]](https://campar.in.tum.de/personal/ilic/homebreweddb/index.html) dataset and put *.ply to 3D_models/PLY folder.
+1. Download ["HomebrewedDB"](https://campar.in.tum.de/personal/ilic/homebreweddb/index.html) dataset and put *.ply to 3D_models/PLY folder.
 
 ### B. View Spaces
 
@@ -38,7 +38,7 @@ Then give the object model names in the Console (-1 to break input).
 1. Run with mode = 1 (ViewPlanning). Note the first-time running will generate gournd truth images, which takes some time.
 2. Input object names that you want to test and -1.
 3. For ["One-2-3-45++"](https://sudo-ai-3d.github.io/One2345plus_page/), Follow the instructions in the Console to obatin the generated mesh, as they have only demo.
-4. Check the folders in the repository: instantngp_scripts, Mesh_scripts, PRVNet_scripts for supporting functions.
+4. Check the folders in the repository: Instantngp_scripts, Mesh_scripts, PRVNet_scripts for supporting functions.
 
 Change use_gt_mesh to 1 in DefaultConfiguration.yaml to enable gournd truth covering ablation.  
 Change 2138-2150 lines in main.cpp for different methods and init_views (default run our method).
