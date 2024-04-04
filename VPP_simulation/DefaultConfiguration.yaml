@@ -1,0 +1,52 @@
+%YAML:1.0
+pre_path: "./results/"
+model_path: "./3D_models/"
+orginalviews_path: "./Tammes_sphere/"
+viewspace_path: "./Hemisphere/"
+instant_ngp_path: "../instant-ngp/scripts/"
+pvb_path: "../PRVNet/"
+one12345pp_path: "../Mesh_scripts/"
+
+name_of_pcd: "obj_000002"
+num_of_thread: 20
+method_of_IG : 5
+ground_truth_resolution: 0.015625
+points_size_cloud: 3
+ensemble_num: 5
+show: 0
+ray_casting_aabb_scale : 1
+view_space_radius : 3.0
+
+evaluate: 0
+n_steps: 2500
+eval_n_steps: 2500
+num_of_max_iteration: 30
+
+num_of_views : 144
+octomap_resolution: 0.04
+div_rate_render: 4.0
+
+do_ablation: 0
+eval_mode: 0
+nbv_resume_mode: 0
+
+num_of_generation_ensemble: 1
+num_of_min_filter: 20
+
+use_gt_mesh: 0
+num_of_min_cover: 6
+spatial_uniform_step: 0.1
+
+color_width: 640
+color_height: 480
+color_fx: 6.1040447998046875e+02
+color_fy: 6.0888446044921875e+02
+color_ppx: 3.2476354980468750e+02
+color_ppy: 2.4834353637695313e+02
+color_model: 2
+color_k1: 0.
+color_k2: 0.
+color_k3: 0.
+color_p1: 0.
+color_p2: 0.
+depth_scale: 1.0
