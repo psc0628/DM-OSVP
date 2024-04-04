@@ -40,6 +40,6 @@ Then give the object model names in the Console (-1 to break input).
 3. For ["One-2-3-45++"](https://sudo-ai-3d.github.io/One2345plus_page/), Follow the instructions in the Console to obatin the generated mesh, as they have only demo.
 4. Check the folders in the repository: instantngp_scripts, Mesh_scripts, PRVNet_scripts for supporting functions.
 
-Change use_gt_mesh to 1 in DefaultConfiguration.yaml to enable gournd truth covering ablation.
+Change use_gt_mesh to 1 in DefaultConfiguration.yaml to enable gournd truth covering ablation.  
 Change 2138-2150 lines in main.cpp for different methods and init_views (default run our method).
 
